@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello world!");
+            int temperature = 22;
+            boolean isWarm = temperature > 20 && temperature < 30;
+            System.out.println(isWarm);
     }
 }
